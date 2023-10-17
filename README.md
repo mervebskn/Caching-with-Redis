@@ -11,7 +11,8 @@ Veriyi, uygulamanın çalıştığı bilgisayarın RAM'inde caching yapmayı sa�
 ```
 AbsoluteTime => Cache'deki datanın ne kadar süre tutulanacağını dair net ömrü tanımlar, süre bitince cache temizlenir.
 Slidingtime => Cache'lenmiş datanın memory'de belirtilen süre zarfında tutulmasını belirler.
-Örnek : Bir veriye 1 aylık absolutetime değeri verelim ve slidingtime 2 gün belirleyelim. 2 gün bu veride işlem yapılmazsa cache silinir.
+Örnek : Bir veriye 1 aylık absolutetime değeri verelim ve slidingtime 2 gün belirleyelim.
+2 gün bu veride işlem yapılmazsa cache silinir.
 ```
 ### Distributed Caching
 Veriyi tek bir ortamda tutmak yerine, birden fazla fiziksel makinede cache'leyen yaklaşım. Büyük veri setleri için, veriler bölünerek makinelere dağıtılır.
