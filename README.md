@@ -25,3 +25,5 @@ Veriyi tek bir ortamda tutmak yerine, birden fazla fiziksel makinede cache'leyen
 ### Replication - Managing Redis
 Redis ile yapılan çalışmalarda, sunucuda saklanan verilerin güvencesini sağlamak adına, farklı bir sunucuda çoğaltabiliriz.
 **_Replication_** , bir redis sunucusundaki datayı farklı bir sunucuda çoğaltma/replice işlemidir. **_Master_** olarak belirlenen sunucuda hata olduğunda **_Slave_** olarak belirlenen sunucu görevi devralır. _Slave_, readonly, veriyi sadece okur.
+### Redis Sentinel
+Mimaride, **_ sürdürülebilirliği, ölçeklendirmeyi_** sağlayan davranış modelidir. Bir hizmetin kesintisiz çalışması (**high availabilitiy**) için geliştirilmiş sistem.
